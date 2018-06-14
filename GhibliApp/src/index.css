@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
+
+
+
+
+/* ----------------------------------------------- */
+/*                    Main Body                    */
+/* ----------------------------------------------- */
+html {
+  font-size: 10px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  background-color: rgb(182, 218, 229);
+  color: rgb(0, 0, 0);
+}
+
+.container {
+  text-align: center;
+  padding: 1.2rem;
+  font-size: 2.2rem;
+  padding-top: 75px;
+  font-family: "Times New Roman";
+}
+body li{
+  list-style-type: none;
+}
+
+/* ----------------------------------------------- */
+/*                       Nav Bar                   */
+/* ----------------------------------------------- */
+a, a:visited {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  padding: 3.6rem;
+  position:center;
+  width: 100%;
+  background-color: rgb(0, 60, 100);
+  justify-content: center;
+  align-items: center;
+}
+
+nav a {
+  font-size: 2.2rem;
+  padding-bottom: 1rem;
+}
+
+nav a:hover {
+  border-bottom: 2px solid white;
+}
+
+nav div {
+  padding-right: 1.8rem;
+}
+
+
+/* ----------------------------------------------- */
+/*                   All Buttons                   */
+/* ----------------------------------------------- */
+button {
+  outline: none;
+  border: none;
+  background-color: rgba(255, 255, 255, 0);
+  border: 2px solid white;
+  padding: 1.2rem;
+  margin: 0.6rem 1.2rem;
+  color: white;
+  font-size: 1.6rem;
+  transition: 0.2s all;
+}
+
+.num-button {
+  height: 30px;
+  width: 30px;
+}
+
+.num-draw {
+  height: 10px;
+  border: none;
+  border-bottom: 2px solid white;
+  border-top: 2px solid white;
+  width: 60px;
+}
+
+button:hover {
+  background-color: white;
+  color: rgb(0,143,54);
+}
+
+button:disabled {
+  color: rgba(255, 255, 255, 0.5);
+  border: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+button:disabled:hover {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+
+
+
+/* ----------------------------------------------- */
+/*                       Home                      */
+/* ----------------------------------------------- */
+.title {
+  font-size: 8rem;
+}
+
+/* ----------------------------------------------- */
+/*                       logo                      */
+/* ----------------------------------------------- */
+
+.links img{
+  position: absolute;
+  left:0px;
+}
+
+/* ----------------------------------------------- */
+/*                                                 */
+/* ----------------------------------------------- */
