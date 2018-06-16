@@ -1,0 +1,118 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+/*--------------------------------------------*/
+/*              Main Body Styles              */
+/*--------------------------------------------*/
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  background-color: lightcoral;
+  display: flex;
+  justify-content: center;
+}
+
+.main-container {
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  padding: 22px 0 14px 0;
+  font-size: 40px;
+  color: lightskyblue;
+  text-shadow: 0 0 6px rgba(255, 255, 255, 0.1);
+
+}
+
+/*--------------------------------------------*/
+/*               Navigation Bar               */
+/*--------------------------------------------*/
+.container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav {
+  width: 700px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+nav div {
+  padding: 14px;
+}
+
+nav a,
+nav a:visited {
+  color: black;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color: white;
+}
+
+
+/*--------------------------------------------*/
+/*                    Lists                   */
+/*--------------------------------------------*/
+ul {
+  list-style-type: none;
+  text-align: left;
+  padding: 0 22px;
+  font-family: 'Roboto Slab', serif;
+  color: white;
+  font-size: 14px;
+}
+
+li {
+  background-color: darkgrey;
+  margin: 12px 0;
+  padding: 12px 0;
+  color: white;
+}
+
+.li-div-menu {
+  background-color: rgb(122, 122, 122);
+}
+
+.li-div-container,
+.li-div-menu {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.li-div-container div,
+.li-div-menu div {
+  width: 180px;
+}
+
+
+/*--------------------------------------------*/
+/*                  look Bar                */
+/*--------------------------------------------*/
+select {
+  margin: 20px 0;
+}
+
+input {
+  margin: 20px 0;
+}
+
+input[type='text'] {
+  outline: none;
+  border: none;
+  border-bottom: 2px solid white;
+  background: none;
+  font-family: 'Roboto Slab', serif;
+  font-size: 14px;
+  padding: 8px 0;
+  color: white;
+  width: 300px;
+}
+
+
