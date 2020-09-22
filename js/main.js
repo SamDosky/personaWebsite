@@ -1,6 +1,5 @@
 /* ===================================================================
  * Main JS
- *
  * ------------------------------------------------------------------- */ 
 
 (function($) {
@@ -9,7 +8,7 @@
 
 	var cfg = {		
 		defAnimation   : "fadeInUp",    // default css animation		
-		scrollDuration : 800,           // smoothscroll duration
+		scrollDuration : 900,           // smoothscroll duration
 		statsDuration  : 4000           // stats animation duration
 	},	
 	$WIN = $(window);
