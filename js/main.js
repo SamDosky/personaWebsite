@@ -13,7 +13,6 @@
 	},	
 	$WIN = $(window);
 
-	
 	/* Preloader 
 	 * -------------------------------------------------- */
 	var ssPreloader = function() {
